@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Management Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   
+</head>
+<body>
+    <nav class="navbar navbar-light" style="background-color: #555;">
+    <nav class="navbar navbar-light bg-dark justify-content-between" style=" color: white;">
+        <a class="navbar-brand">Officia</a>
+        <form class="form-inline">
+          
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="margin-left: auto;" onclick="">Log Out</button>
+        </form>
+      </nav>
+      </nav><br>
+    
+    <div id="usernameDisplay" style="font-weight: bold; margin-left: 30px;"></div>
+    <div class="row">
+    <div class="col-md-4">
+        <div class="card"  style= "margin-left:5rem;width: 20rem;margin-top: 1.15rem; transition: transform .1s; ">
+<img src="speakers.jpg" class="card-img-top" alt="speakers">
+<div class="card-body">
+  <h5 class="card-title"><span style="color: #097969">Speakers</span></h5>
+  <p class="card-text"> Order Id: 342101<br> Customer Name: Rishitha<br> Order date: 1/09/2023 <br> Order Value: 2000<br> Customer city: Nellore  </p>
+  
+  <a href="invoice.html?orderId=342101&customerName=Rishitha&orderDate=1/09/2023&orderValue=2000&customerCity=Nellore" class="btn btn-primary" style="background-color:#ff4500 ">View Invoice</a>
+</div>
+</div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card"  style= "margin-left:5rem;width: 20rem;margin-top: 1.15rem; transition: transform .1s; ">
+<img src="earpods.jpg" class="card-img-top" alt="ear pods">
+<div class="card-body">
+  <h5 class="card-title"><span style="color: #097969">Ear Pods</span></h5>
+  <p class="card-text"> Order Id: 342102<br> Customer Name: Prasanna<br> Order date: 10/09/2023 <br> Order Value: 2500<br> Customer city: Adilabad  </p>
+  
+  <a href=# class="btn btn-primary" style="background-color:#ff4500 ">Pending</a>
+</div>
+</div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card"  style= "margin-left:5rem;width: 20rem;margin-top: 1.15rem; transition: transform .1s; ">
+<img src="bonsai.jpg" class="card-img-top" alt="bonsai">
+<div class="card-body">
+  <h5 class="card-title"><span style="color: #097969">Bonsai Plant</span></h5>
+  <p class="card-text"> Order Id: 342103<br> Customer Name: Rahul<br> Order date: 2/09/2023 <br> Order Value: 3500<br> Customer city: Hyderabad  </p>
+  
+  <a href="invoice.html?orderId=342103&customerName=Rahul&orderDate=2/09/2023&orderValue=3500&customerCity=Hyderabad" class="btn btn-primary" style="background-color:#ff4500 ">View Invoice</a>
+</div>
+</div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card"     style= "margin-left:5rem;width: 20rem;margin-top: 1.15rem; transition: transform .1s; ">
+<img src="study lamp.jpg" class="card-img-top" alt="study lamp">
+<div class="card-body">
+  <h5 class="card-title"><span style="color: #097969" >Study Lamp</span></h5>
+  <p class="card-text" > Order Id: 342104<br> Customer Name: Uday<br> Order date: 12/09/2023 <br> Order Value: 1000<br> Customer city: Pune  </p>
+  
+  <a href="invoice.html?orderId=342104&customerName=Uday&orderDate=12/09/2023&orderValue=1000&customerCity=Pune" class="btn btn-primary" style="background-color:#ff4500 ">View Invoice</a>
+</div>
+</div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card"  style= "margin-left:5rem;width: 20rem;margin-top: 1.15rem; transition: transform .1s; ">
+<img src="teaset.jpg" class="card-img-top" alt="tea set">
+<div class="card-body">
+  <h5 class="card-title"><span style="color: #097969">Tea Set</span></h5>
+  <p class="card-text"> Order Id: 342105<br> Customer Name: Rishitha<br> Order date: 12/09/2023 <br> Order Value: 1500<br> Customer city: Nellore  </p>
+  
+  <a href=# class="btn btn-primary" style="background-color:#ff4500 ">Pending</a>
+</div>
+</div>
+    </div>
+    <div class="col-md-4">
+        <div class="card"  style= "margin-left:5rem;width: 20rem;margin-top: 1.15rem; transition: transform .1s; ">
+<img src="hairdryer.jpg" class="card-img-top" alt="hairdryer">
+<div class="card-body">
+  <h5 class="card-title"><span style="color: #097969" >Hair Dryer</span></h5>
+  <p class="card-text" > Order Id: 342106<br> Customer Name: Aishwarya<br> Order date: 13/08/2023 <br> Order Value: 800<br> Customer city: Banglore  </p>
+  
+  <a href=# class="btn btn-primary" style="background-color:#ff4500 ">Pending</a>
+</div>
+</div>
+    </div>
+    
+    </div>
+
+    
+
+
+    
+    
+    <script type="text/javascript" src="ordermngmt.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

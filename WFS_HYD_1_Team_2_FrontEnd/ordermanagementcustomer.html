@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Management Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    
+    <nav class="navbar navbar-light" style="background-color: #555;">
+        <nav class="navbar navbar-light bg-dark justify-content-between" style=" color: white;">
+            <a class="navbar-brand"><i>Officia</i></a>
+            <form class="form-inline">
+              
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="margin-left: auto;" onclick="customerLogin.html">Log Out</button>
+            </form>
+          </nav>
+          </nav><br>
+
+          <h4 style="margin-left: 30px;"><b><i>Pending For Approval</i></b></h4>
+          <div class="row">
+          <div class="col-md-4">
+        <div class="card"  style= "margin-left:5rem;width: 20rem;margin-top: 1.15rem; transition: transform .1s; ">
+<img src="sneakers.jpg" class="card-img-top" alt="sneakers">
+<div class="card-body">
+  <h5 class="card-title"><span style="color: #097969">Sneakers</span></h5>
+  <p class="card-text"> Order Id: 342201<br> Date: 12/09/2023<br> Shipping Cost: 100 <br> Total Cost: 2600<  </p>
+  
+  <a href="quote.html?orderId=342201&date=12/09/2023&shippingCost=100&totalCost=2600" class="btn btn-primary" style="background-color:#ff4500 ">View Details</a>
+</div>
+</div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card"  style= "margin-left:5rem;width: 20rem;margin-top: 1.15rem; transition: transform .1s; ">
+<img src="smartwatch.jpg" class="card-img-top" alt="smart watch">
+<div class="card-body">
+  <h5 class="card-title"><span style="color: #097969">Smart Watch</span></h5>
+  <p class="card-text"> Order Id: 342202<br> Date: 11/09/2023<br> Shipping Cost: 150 <br> Total Cost: 1150  </p>
+  
+  <a href="quote.html?orderId=342202&date=11/09/2023&shippingCost=150&totalCost=1150" class="btn btn-primary" style="background-color:#ff4500 ">View Details</a>
+</div>
+</div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card"  style= "margin-left:5rem;width: 20rem;margin-top: 1.15rem; transition: transform .1s; ">
+<img src="headphone.jpg" class="card-img-top" alt="headphone">
+<div class="card-body">
+  <h5 class="card-title"><span style="color: #097969">Head Phone</span></h5>
+  <p class="card-text"> Order Id: 342203<br> Date: 13/09/2023<br> Shipping Cost: 120 <br> Total Cost: 1420  </p>
+  
+  <a href="quote.html?orderId=342203&date=13/09/2023&shippingCost=120&totalCost=1420" class="btn btn-primary" style="background-color:#ff4500 ">View Details</a>
+</div>
+</div>
+    </div>
+
+          </div><br><br>
+
+          <h4 style="margin-left: 30px;"><b><i>Orders Completed</i></b></h4>
+
+          <div class="row">
+
+            <div class="col-md-4">
+                <div class="card"  style= "margin-left:5rem;width: 20rem;margin-top: 1.15rem; transition: transform .1s; ">
+        <img src="playstation.jpg" class="card-img-top" alt="play station">
+        <div class="card-body">
+          <h5 class="card-title"><span style="color: #097969">Play Station</span></h5>
+          <p class="card-text"> Order Id: 342301<br> Date: 31/08/2023<br> Shipping Cost: 1000 <br> Total Cost: 51000   </p>
+          
+          <a href="completed.html?orderId=342301&date=31/08/2023&shippingCost=100&totalCost=51000" class="btn btn-primary" style="background-color:#ff4500 ">Invoice</a>
+        </div>
+        </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card"  style= "margin-left:5rem;width: 20rem;margin-top: 1.15rem; transition: transform .1s; ">
+        <img src="laptop.jpg" class="card-img-top" alt="laptop">
+        <div class="card-body">
+          <h5 class="card-title"><span style="color: #097969">Laptop</span></h5>
+          <p class="card-text"> Order Id: 342302<br> Date: 7/08/2023<br> Shipping Cost: 3000 <br> Total Cost: 68000   </p>
+          
+          <a href="completed.html?orderId=342302&date=7/08/2023&shippingCost=3000&totalCost=68000" class="btn btn-primary" style="background-color:#ff4500 ">Invoice</a>
+        </div>
+        </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card"  style= "margin-left:5rem;width: 20rem;margin-top: 1.15rem; transition: transform .1s; ">
+        <img src="tv.jpg" class="card-img-top" alt="television">
+        <div class="card-body">
+          <h5 class="card-title"><span style="color: #097969">Televison</span></h5>
+          <p class="card-text"> Order Id: 342303<br> Date: 1/07/2023<br> Shipping Cost: 5000 <br> Total Cost: 53000   </p>
+          
+          <a href="completed.html?orderId=342303&date=1/07/2023&shippingCost=5000&totalCost=53000" class="btn btn-primary" style="background-color:#ff4500 ">Invoice</a>
+        </div>
+        </div>
+            </div>
+
+          </div>
+
+
+          
+          <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

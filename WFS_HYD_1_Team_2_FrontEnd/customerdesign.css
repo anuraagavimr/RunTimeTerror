@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fieldsHolder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    padding: 20px;
+}
+
+.inputFiled {
+    width: 100%; 
+    max-width: 500px; 
+    height: 40px; 
+    padding: 10px;
+    margin: 10px 0; 
+    border-radius: 5px;
+    border: solid #006fee 1px;
+    outline: none;
+}
+
+.btn {
+    background-color: #006fee;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    outline: none;
+    font-size: medium;
+    margin-top: 10px; 
+}
+
+.btn:hover {
+    background-color: #0d5bb4;
+}
+
+.btn:active {
+    background-color: #006fee;
+}
+
+.heading {
+    margin: 10px 0;
+    
+}
+
+
+.imgHolder {
+    background-image: url("https://images.pexels.com/photos/5632388/pexels-photo-5632388.jpeg");
+    width: 100%;
+    height: 50vh; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+@media screen and (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
+
+   
+    .imgHolder {
+        max-width: 100%;
+        height: 100vh;
+        background-position: center;
+    }
+}
