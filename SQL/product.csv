@@ -1,0 +1,16 @@
+productId,name,price,category
+101,Product1,19.99,LEVEL_1
+102,Product2,29.99,LEVEL_2
+103,Product3,9.99,LEVEL_3
+104,Product4,49.99,LEVEL_1
+105,Product5,14.99,LEVEL_2
+106,Product6,39.99,LEVEL_3
+107,Product7,24.99,LEVEL_1
+108,Product8,7.99,LEVEL_2
+109,Product9,59.99,LEVEL_3
+110,Product10,12.99,LEVEL_1
+111,Product11,34.99,LEVEL_2
+112,Product12,17.99,LEVEL_3
+113,Product13,5.99,LEVEL_1
+114,Product14,69.99,LEVEL_2
+115,Product15,22.99,LEVEL_3
